@@ -1,0 +1,13 @@
+# Existing-code intake ledger
+
+These are candidates only. Their hashes identify bytes observed locally on 2026-11-05; they do not certify correctness or license rights. Source revisions and paths are repository-relative, so no owner-machine path is embedded in the public project.
+
+| ID | Source and identity | Proposed role | Current evidence | Next gate |
+| --- | --- | --- | --- | --- |
+| TOOLS-RENDER-001 | `Mesh-Saliency-Tools` commit `08e04fe086d1bc422c07a8690f368d3117432c6b`, `render_pipeline/render.py`, SHA-256 `a268526311314c979c89061f88dd4ad5515eee0bb17d2ddd9aadeb8754ae0bf2` | Entry point | Candidate; historical README claims preview/video checks; not rerun here | Trace effective config, stage outputs and failure behavior; bounded Blender4.2/OptiX pilot |
+| TOOLS-CONFIG-001 | Same commit, `render_pipeline/config.py`, SHA-256 `1b2da3c05e69cd741a8d978246e6d551ccde458234a22e868201f47662713059` | Config and frame schedule | Candidate | Reject unknown/missing settings; independently check time/angle/frame table and D-023/D-024 sizing |
+| TOOLS-ENGINE-001 | Same commit, `render_pipeline/engine.py`, SHA-256 `6e387c71072a7e6333df0d4de80a509296d21d9aa98e335c4490a5cbce13248f` | Blender scene and rendering | Candidate | Verify camera, materials, colors, lights, AO, mesh import and manifests against target frames |
+| ENVELOPE-GEOM-001 | Workspace diagnostic v1.0 `Parameters/experiments/envelope_height_calibration/geometry.py`, SHA-256 `231f279e05ab1516405211cd9a1024dd6684bb3a27fca8133959ebe010c120aa` | Projected envelope measurement | Diagnostic checks reported; source not in this repository | Independently reproduce Blender4.2 results; apply common-scale D-023 and full-turn contract |
+| ENVELOPE-CAL-001 | Same diagnostic package, `calibration.py`, SHA-256 `5b451ad1168e84003129ee65e00b3edc28765d7b25eb43f3aa7ffbfe2c05546f` | Size calibration | Diagnostic checks reported; source not in this repository | Check reference vs turn-max decision, common sphere scale and Spanner/A380 full-video cases |
+
+No source file above was copied into Verified-Pipeline. Each accepted migration needs a dated evidence record, exact environment and commit, independent output checks, licensing decision and an update to this ledger.

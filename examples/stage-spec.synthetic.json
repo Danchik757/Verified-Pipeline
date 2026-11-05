@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "stage": "synthetic_contract_demo",
+  "code_commits": {"pipeline": "0000000000000000000000000000000000000000"},
+  "input_sha256": {"fixture": "0000000000000000000000000000000000000000000000000000000000000000"},
+  "parameters": {"example_only": true, "frame": 0},
+  "upstream_run_ids": []
+}
