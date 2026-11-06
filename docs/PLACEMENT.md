@@ -1,5 +1,11 @@
 # Common mesh placement and screen size
 
+Scope correction, 2026-11-06: the owner rejected this common-sphere method as
+completion of the requested independent projection calibration. This module
+does not independently target cube-envelope or mesh silhouette height. Its
+bounded geometry evidence is retained for its stated common-scale contract;
+it must not be selected as the accepted framing method by default.
+
 Status: diagnostic verified for the centered perspective geometry contract on
 2026-11-06. This is a geometry component, not an accepted video renderer.
 
