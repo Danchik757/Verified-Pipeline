@@ -4,7 +4,7 @@ Public source for a reproducible mesh-stimulus experiment pipeline. The first ta
 
 ## Current status
 
-This repository is an **implementation scaffold**. Its stage-identity code is tested locally. It cannot yet render a video, run a trained SalFoM model, project predictions, score ground truth, or collect mouse data. No scientific component is called verified merely because its source is listed here. See [validation levels](docs/VALIDATION.md) and the [candidate intake ledger](intake/CANDIDATES.md).
+This repository is an **implementation scaffold**. Its stage-identity code is tested locally, and its [common mesh placement geometry](docs/PLACEMENT.md) has bounded diagnostic verification. It cannot yet render a video, run a trained SalFoM model, project predictions, score ground truth, or collect mouse data. See [validation levels](docs/VALIDATION.md) and the [candidate intake ledger](intake/CANDIDATES.md).
 
 `Verified-Pipeline` must become independently runnable. Existing Tools and core code are reference candidates for comparison, not runtime dependencies or automatic sources to copy. A scientific script enters this repository only after its behavior, inputs, outputs and failure cases have been checked against the current contract. This repository does not bundle raw meshes, GT, model weights, videos, or participant data.
 

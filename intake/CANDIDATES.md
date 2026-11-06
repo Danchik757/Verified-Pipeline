@@ -10,4 +10,10 @@ These are candidates only. Their hashes identify bytes observed locally on 2026-
 | ENVELOPE-GEOM-001 | Workspace diagnostic v1.0 `Parameters/experiments/envelope_height_calibration/geometry.py`, SHA-256 `231f279e05ab1516405211cd9a1024dd6684bb3a27fca8133959ebe010c120aa` | Projected envelope measurement | Diagnostic checks reported; source not in this repository | Independently reproduce Blender4.2 results; apply common-scale D-023 and full-turn contract |
 | ENVELOPE-CAL-001 | Same diagnostic package, `calibration.py`, SHA-256 `5b451ad1168e84003129ee65e00b3edc28765d7b25eb43f3aa7ffbfe2c05546f` | Size calibration | Diagnostic checks reported; source not in this repository | Check reference vs turn-max decision, common sphere scale and Spanner/A380 full-video cases |
 
+The centered-camera D-023/D-024 placement contract was independently
+implemented here as `src/verified_pipeline/placement.py`, with bounded
+diagnostic evidence in [the placement specification](../docs/PLACEMENT.md).
+The two older envelope candidates remain external references. Their
+Blender 4.2/OptiX adapter and full video behavior have not been accepted.
+
 No source file above was copied into Verified-Pipeline. Each accepted migration needs a dated evidence record, exact environment and commit, independent output checks, licensing decision and an update to this ledger.
