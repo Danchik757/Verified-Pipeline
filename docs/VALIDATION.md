@@ -9,8 +9,8 @@ Status applies to a specific code commit, dependency revision, input set and env
 | pilot validated | Bounded real-data run in the target environment; source and output hashes, complete manifests, frame/coordinate checks, representative visual review, failures and limitations. |
 | release ready | Reproducible fresh-clone setup, fixed dependency bundle, all applicable contract tests and pilot gates, clean/resume/invalidation checks, reviewed release report. |
 
-For each old candidate script, collect source identity, reproduce a minimal baseline, test relevant edge cases and compare to independent expected behavior. Then accept, repair, rewrite or reject it. A historical report or a passing import/unit test is supporting evidence, not release acceptance.
+For each old candidate script, collect source identity, reproduce a minimal baseline, test relevant edge cases and compare to independent expected behavior. Then accept, repair, rewrite or reject it. A historical report or a passing import/unit test is supporting evidence, not release acceptance. Only accepted code enters the runtime implementation; rejected and pending candidates remain references in the intake ledger.
 
 The initial `identity.py` logic is a new local utility. Its tests establish deterministic hashing and rejection of malformed stage specs. It has no scientific validation status and does not make the render-to-metric pipeline runnable.
 
-Before public release, check redistribution rights for any imported code or weights. If the renderer or other dependencies remain private, document the restricted reproduction path explicitly.
+Before public release, check redistribution rights for any imported code or weights. Release readiness requires a standalone clone to execute every accepted code stage without private source repositories; external scientific data and checkpoints must have explicit acquisition and identity contracts.

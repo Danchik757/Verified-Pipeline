@@ -6,7 +6,7 @@ Public source for a reproducible mesh-stimulus experiment pipeline. The first ta
 
 This repository is an **implementation scaffold**. Its stage-identity code is tested locally. It cannot yet render a video, run a trained SalFoM model, project predictions, score ground truth, or collect mouse data. No scientific component is called verified merely because its source is listed here. See [validation levels](docs/VALIDATION.md) and the [candidate intake ledger](intake/CANDIDATES.md).
 
-The existing renderer is currently in the separate `Mesh-Saliency-Tools` repository. It is a candidate dependency, not validated by this repository. This public repository does not bundle that code, raw meshes, GT, model weights, videos, or participant data. Full public reproducibility depends on resolving that renderer's availability and redistribution rights.
+`Verified-Pipeline` must become independently runnable. Existing Tools and core code are reference candidates for comparison, not runtime dependencies or automatic sources to copy. A scientific script enters this repository only after its behavior, inputs, outputs and failure cases have been checked against the current contract. This repository does not bundle raw meshes, GT, model weights, videos, or participant data.
 
 ## Local contract check
 
@@ -26,6 +26,6 @@ The fingerprint command validates a *fully resolved* stage specification and ret
 - [Candidate code intake](intake/CANDIDATES.md)
 - [Local contributor/agent instructions](AGENTS.md)
 
-Code and schemas belong here. Large or private inputs and generated outputs belong outside Git in versioned run directories. The parent `Mesh-Saliency-Projection` repository will pin an exact commit through its root-level `Verified-Pipeline/` submodule link.
+Code and schemas belong here. Large or private inputs and generated outputs belong outside Git in versioned run directories. The parent `Mesh-Saliency-Projection` repository may pin an exact commit through its root-level `Verified-Pipeline/` submodule link; a standalone clone must not require that parent to run.
 
 No license has been granted for copying third-party sources or pretrained weights into this repository. A repository-wide license and upstream redistribution rights must be settled before such material is published.
