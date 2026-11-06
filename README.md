@@ -4,6 +4,14 @@ Public source for a reproducible mesh-stimulus experiment pipeline. The first ta
 
 ## Current status
 
+This feature branch prepares the checked [independent sphere/cube projection
+calibration](docs/ENVELOPE_CALIBRATION.md) for review. The descriptive entry
+scripts are `scripts/calibrate_sphere_projection_height.py` and
+`scripts/calibrate_cube_projection_height.py`. All required geometry source,
+explanations, evidence and reproduction examples are included in this checkout.
+The [cube rule comparison](docs/CUBE_SIZING_RULES.md) precedes final policy
+acceptance and target-engine integration.
+
 This repository is an **implementation scaffold**. Its stage-identity code is tested locally. It cannot yet render a video, run a trained SalFoM model, project predictions, score ground truth, or collect mouse data. No scientific component is called verified merely because its source is listed here. See [validation levels](docs/VALIDATION.md) and the [candidate intake ledger](intake/CANDIDATES.md).
 
 `Verified-Pipeline` must become independently runnable. Existing Tools and core code are reference candidates for comparison, not runtime dependencies or automatic sources to copy. A scientific script enters this repository only after its behavior, inputs, outputs and failure cases have been checked against the current contract. This repository does not bundle raw meshes, GT, model weights, videos, or participant data.

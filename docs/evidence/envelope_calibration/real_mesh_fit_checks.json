@@ -1,0 +1,245 @@
+{
+  "blender": "4.1.1",
+  "records": [
+    {
+      "model": "A380",
+      "source_sha256": "046397d6ada42f8438d776ca43bc92c21782681ec406f52d8c329164aaa6fd36",
+      "kind": "sphere",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.254462070190223,
+      "scale_delta_from_archived_render": 1.0080847379079216e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "A380",
+      "source_sha256": "046397d6ada42f8438d776ca43bc92c21782681ec406f52d8c329164aaa6fd36",
+      "kind": "sphere",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.00000000000001,
+      "mesh_scale": 0.35193359722396955,
+      "scale_delta_from_archived_render": 1.3942309307068967e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "A380",
+      "source_sha256": "046397d6ada42f8438d776ca43bc92c21782681ec406f52d8c329164aaa6fd36",
+      "kind": "sphere",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.0,
+      "mesh_scale": 0.445395775163591,
+      "scale_delta_from_archived_render": 1.7644935568217335e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "bunny",
+      "source_sha256": "0a0c6c58ba54ccb937b2be4e193a1d29e28c0d6bc6abb1206ef547d1dd4c185c",
+      "kind": "sphere",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.2814186300626033,
+      "scale_delta_from_archived_render": 1.3469578064029264e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "bunny",
+      "source_sha256": "0a0c6c58ba54ccb937b2be4e193a1d29e28c0d6bc6abb1206ef547d1dd4c185c",
+      "kind": "sphere",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.00000000000001,
+      "mesh_scale": 0.38921584945738963,
+      "scale_delta_from_archived_render": 1.8629090881017163e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "bunny",
+      "source_sha256": "0a0c6c58ba54ccb937b2be4e193a1d29e28c0d6bc6abb1206ef547d1dd4c185c",
+      "kind": "sphere",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.0,
+      "mesh_scale": 0.4925789874636689,
+      "scale_delta_from_archived_render": 2.3576374852396498e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "spanner",
+      "source_sha256": "ae5bf9f4c85733039786b04d17f7da131f36f13d983d1e1dd4206106d4503e4e",
+      "kind": "sphere",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.2694297157683403,
+      "scale_delta_from_archived_render": 6.75132361127595e-09,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "spanner",
+      "source_sha256": "ae5bf9f4c85733039786b04d17f7da131f36f13d983d1e1dd4206106d4503e4e",
+      "kind": "sphere",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.00000000000001,
+      "mesh_scale": 0.3726345895028679,
+      "scale_delta_from_archived_render": 9.337413453547327e-09,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "spanner",
+      "source_sha256": "ae5bf9f4c85733039786b04d17f7da131f36f13d983d1e1dd4206106d4503e4e",
+      "kind": "sphere",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.0,
+      "mesh_scale": 0.4715942812893013,
+      "scale_delta_from_archived_render": 1.1817128553470724e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "skull",
+      "source_sha256": "72a2302b3ad222e3e56f013132cb162b3c57ff7877026749b5962b681035fac1",
+      "kind": "sphere",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.30079735890248194,
+      "scale_delta_from_archived_render": 1.1279971512401232e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "skull",
+      "source_sha256": "72a2302b3ad222e3e56f013132cb162b3c57ff7877026749b5962b681035fac1",
+      "kind": "sphere",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.00000000000001,
+      "mesh_scale": 0.4160175875126843,
+      "scale_delta_from_archived_render": 1.5600757186096104e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "skull",
+      "source_sha256": "72a2302b3ad222e3e56f013132cb162b3c57ff7877026749b5962b681035fac1",
+      "kind": "sphere",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.0,
+      "mesh_scale": 0.5264984000773858,
+      "scale_delta_from_archived_render": 1.974381347302767e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "A380",
+      "source_sha256": "046397d6ada42f8438d776ca43bc92c21782681ec406f52d8c329164aaa6fd36",
+      "kind": "cube",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.21563624670617937,
+      "scale_delta_from_archived_render": 5.664850200037819e-09,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "A380",
+      "source_sha256": "046397d6ada42f8438d776ca43bc92c21782681ec406f52d8c329164aaa6fd36",
+      "kind": "cube",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.0,
+      "mesh_scale": 0.29997125398771907,
+      "scale_delta_from_archived_render": 7.91606707961634e-09,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "A380",
+      "source_sha256": "046397d6ada42f8438d776ca43bc92c21782681ec406f52d8c329164aaa6fd36",
+      "kind": "cube",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.00000000000001,
+      "mesh_scale": 0.382481494368672,
+      "scale_delta_from_archived_render": 1.0151578022643548e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "bunny",
+      "source_sha256": "0a0c6c58ba54ccb937b2be4e193a1d29e28c0d6bc6abb1206ef547d1dd4c185c",
+      "kind": "cube",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.30460554407235846,
+      "scale_delta_from_archived_render": 2.286975780974032e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "bunny",
+      "source_sha256": "0a0c6c58ba54ccb937b2be4e193a1d29e28c0d6bc6abb1206ef547d1dd4c185c",
+      "kind": "cube",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.0,
+      "mesh_scale": 0.42373630789214795,
+      "scale_delta_from_archived_render": 3.186451835723858e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "bunny",
+      "source_sha256": "0a0c6c58ba54ccb937b2be4e193a1d29e28c0d6bc6abb1206ef547d1dd4c185c",
+      "kind": "cube",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.00000000000001,
+      "mesh_scale": 0.5402894247576393,
+      "scale_delta_from_archived_render": 4.07112791256381e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "spanner",
+      "source_sha256": "ae5bf9f4c85733039786b04d17f7da131f36f13d983d1e1dd4206106d4503e4e",
+      "kind": "cube",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.21720908179627582,
+      "scale_delta_from_archived_render": 6.7467820497046915e-09,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "spanner",
+      "source_sha256": "ae5bf9f4c85733039786b04d17f7da131f36f13d983d1e1dd4206106d4503e4e",
+      "kind": "cube",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.0,
+      "mesh_scale": 0.30215922248327065,
+      "scale_delta_from_archived_render": 9.421401159226406e-09,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "spanner",
+      "source_sha256": "ae5bf9f4c85733039786b04d17f7da131f36f13d983d1e1dd4206106d4503e4e",
+      "kind": "cube",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.00000000000001,
+      "mesh_scale": 0.38527128655270715,
+      "scale_delta_from_archived_render": 1.2071393939994124e-08,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "skull",
+      "source_sha256": "72a2302b3ad222e3e56f013132cb162b3c57ff7877026749b5962b681035fac1",
+      "kind": "cube",
+      "target_percent": 50,
+      "achieved_envelope_percent": 50.0,
+      "mesh_scale": 0.3227548049101352,
+      "scale_delta_from_archived_render": 5.756990439920173e-10,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "skull",
+      "source_sha256": "72a2302b3ad222e3e56f013132cb162b3c57ff7877026749b5962b681035fac1",
+      "kind": "cube",
+      "target_percent": 70,
+      "achieved_envelope_percent": 70.0,
+      "mesh_scale": 0.4489837169693255,
+      "scale_delta_from_archived_render": 8.54292137031365e-10,
+      "contained_in_selected_envelope": true
+    },
+    {
+      "model": "skull",
+      "source_sha256": "72a2302b3ad222e3e56f013132cb162b3c57ff7877026749b5962b681035fac1",
+      "kind": "cube",
+      "target_percent": 90,
+      "achieved_envelope_percent": 90.00000000000001,
+      "mesh_scale": 0.572481398569808,
+      "scale_delta_from_archived_render": 1.1762560925276944e-09,
+      "contained_in_selected_envelope": true
+    }
+  ]
+}

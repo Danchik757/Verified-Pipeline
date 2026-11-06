@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "sphere",
+    "mode": "reference",
+    "target_percent": 50.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "sphere",
+    "mode": "reference",
+    "target_percent": 70.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "sphere",
+    "mode": "reference",
+    "target_percent": 90.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "sphere",
+    "mode": "turn_max",
+    "target_percent": 50.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "sphere",
+    "mode": "turn_max",
+    "target_percent": 70.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "sphere",
+    "mode": "turn_max",
+    "target_percent": 90.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "cube",
+    "mode": "reference",
+    "target_percent": 50.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "cube",
+    "mode": "reference",
+    "target_percent": 70.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "cube",
+    "mode": "reference",
+    "target_percent": 90.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "cube",
+    "mode": "turn_max",
+    "target_percent": 50.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "cube",
+    "mode": "turn_max",
+    "target_percent": 70.0,
+    "size_delta_m": 0.0
+  },
+  {
+    "kind": "cube",
+    "mode": "turn_max",
+    "target_percent": 90.0,
+    "size_delta_m": 0.0
+  }
+]

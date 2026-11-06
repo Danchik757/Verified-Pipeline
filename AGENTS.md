@@ -4,6 +4,7 @@ Read `README.md`, `docs/ARCHITECTURE.md`, `docs/VALIDATION.md`, and `intake/CAND
 
 - Preserve source data, historical results and other workers' changes. Use scoped branches and one owner per editing scope.
 - Record source commit/hash and evidence before reusing an older script. Do not mark a wrapper or copied file validated solely because tests import it.
+- Preserve method rationale, exact measured target, input/code/output identities, numerical and visual comparisons, repeat commands and limits under `docs/` and `docs/evidence/`. Record owner choices separately from pending preferences; link superseded evidence rather than silently replacing it.
 - Keep accepted runtime code self-contained in this repository. Existing Tools/core scripts may be inspected as candidates, but must not become implicit runtime dependencies. Add each scientific component only after its contract and bounded real-input behavior are verified.
 - Separate SalFoM predictions, Toloka mouse observations and author GT by type and provenance. Reject implicit modality conversion.
 - Resolve configuration fully before hashing or running. Record code/input/checkpoint identities, frame schedule, coordinate domain, preprocessing and metric/projection versions.

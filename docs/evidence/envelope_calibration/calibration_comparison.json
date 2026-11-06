@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "kind": "sphere",
+      "mode": "reference",
+      "target_percent": 50.0,
+      "physical_size_m": 0.5064861980418496,
+      "achieved_percent": 50.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "sphere",
+      "mode": "reference",
+      "target_percent": 70.0,
+      "physical_size_m": 0.7004953999152395,
+      "achieved_percent": 70.00000000000001,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "sphere",
+      "mode": "reference",
+      "target_percent": 90.0,
+      "physical_size_m": 0.8865243162482817,
+      "achieved_percent": 90.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "cube",
+      "mode": "reference",
+      "target_percent": 50.0,
+      "physical_size_m": 0.4044643795855998,
+      "achieved_percent": 50.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "cube",
+      "mode": "reference",
+      "target_percent": 70.0,
+      "physical_size_m": 0.5626497817084308,
+      "achieved_percent": 70.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "cube",
+      "mode": "reference",
+      "target_percent": 90.0,
+      "physical_size_m": 0.7174125068759363,
+      "achieved_percent": 90.00000000000001,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "sphere",
+      "mode": "turn_max",
+      "target_percent": 50.0,
+      "physical_size_m": 0.5064861980418496,
+      "achieved_percent": 50.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "sphere",
+      "mode": "turn_max",
+      "target_percent": 70.0,
+      "physical_size_m": 0.7004953999152395,
+      "achieved_percent": 70.00000000000001,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "sphere",
+      "mode": "turn_max",
+      "target_percent": 90.0,
+      "physical_size_m": 0.8865243162482817,
+      "achieved_percent": 90.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "cube",
+      "mode": "turn_max",
+      "target_percent": 50.0,
+      "physical_size_m": 0.36438820815985784,
+      "achieved_percent": 50.00000000000002,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "cube",
+      "mode": "turn_max",
+      "target_percent": 70.0,
+      "physical_size_m": 0.5034316217297103,
+      "achieved_percent": 70.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    },
+    {
+      "kind": "cube",
+      "mode": "turn_max",
+      "target_percent": 90.0,
+      "physical_size_m": 0.6364275262963464,
+      "achieved_percent": 90.0,
+      "size_delta_from_v1_m": 0.0,
+      "result_exact_match": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "fixed_on": "2026-11-05",
+  "purpose": "Full uncropped perspective envelope height calibration for sphere/cube",
+  "files": {
+    "__init__.py": "fbbff9a1aa089fa771eebc17ac759f44ba0cf745d345e2a89776d4cf1a76f8a1",
+    "geometry.py": "231f279e05ab1516405211cd9a1024dd6684bb3a27fca8133959ebe010c120aa",
+    "calibration.py": "5b451ad1168e84003129ee65e00b3edc28765d7b25eb43f3aa7ffbfe2c05546f",
+    "run_blender.py": "362253a1db1458a4c2221cc98d7e75c92a1f1b626be3cb373c114b203770813a"
+  },
+  "validation": {
+    "package_v1_reference_validation.json": "85fceba40b61eb123e5f26f825558d7e8c52c9b12dba818eaecc58a11448a006",
+    "package_v1_turn_max_validation.json": "75d0703efd7d1337fee9519982b35c9b9c89b8442ee6bb32ffedd2e8ccec3179",
+    "package_v1_compat_validation.json": "1a1ea80f7fe3cebd81042ab2257821281421e61947fac11cd9d02fad447e739a"
+  },
+  "blender_validation_version": "4.1.1",
+  "comparison_scope": "12 prior calibration conditions; reference and sampled turn maximum",
+  "validation_base": "@GPT-job/chats/render-ablation--01a18205/outputs/screen_projection_20261105"
+}

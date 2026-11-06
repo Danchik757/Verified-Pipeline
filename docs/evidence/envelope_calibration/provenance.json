@@ -1,0 +1,38 @@
+{
+  "source": "Workspace-local CODE-013/014 envelope_height_calibration v1.0.0",
+  "original_release_manifest_sha256": "930805ccc85b437c7319d6d6c6f30d099e9b426f14dd18725e0ab3b0219af7dd",
+  "original_source_sha256": {
+    "__init__.py": "fbbff9a1aa089fa771eebc17ac759f44ba0cf745d345e2a89776d4cf1a76f8a1",
+    "geometry.py": "231f279e05ab1516405211cd9a1024dd6684bb3a27fca8133959ebe010c120aa",
+    "calibration.py": "5b451ad1168e84003129ee65e00b3edc28765d7b25eb43f3aa7ffbfe2c05546f",
+    "run_blender.py": "362253a1db1458a4c2221cc98d7e75c92a1f1b626be3cb373c114b203770813a"
+  },
+  "included_implementation_sha256": {
+    "src/verified_pipeline/envelope_runner.py": "804b4240d314fd3607b0d0f97e97ca0276f7470822dbe0be3c8bf9d91c9759a7",
+    "scripts/calibrate_cube_projection_height.py": "49966f33dc05b148fb43091342f76ba4a053d16772d535a3e7665f82dd82da64",
+    "scripts/calibrate_sphere_projection_height.py": "2f1ebbabb3d2bdc0112dbf5de613b9b2a2eb08a297293d3f1e3a5d071783667d",
+    "examples/assemble_cube_sizing_comparison.py": "7b480d61ab84922149303f177b8d531d75a3d102cdc4849afbd8e5367883187b",
+    "examples/render_cube_sizing_comparison.py": "f32615d08fdaef6b5bf6733fd9e05e01f320c5b03bbc74f085a16566a73b7eb4",
+    "examples/verify_envelope_calibration.py": "901da2f9d35172b66b69a657df565dd6db82d65d789e973e6daa2be560571719"
+  },
+  "evidence_sha256": {
+    "cube_turn_max_target70_yaw090.png": "fc8913f646dc710d17a64d59b6bd7adfb3b199b16bee9a1be9a31342dc73b31f",
+    "cube_turn_max_target70_yaw045.png": "f07483a796200b30b73b40c3bbeabaa670c4f173ee67f21f5853015dd9a69076",
+    "renamed_script_verification.json": "683cc72e3af751a3f7038fcd2456a39b4744e51432696bb4edb6486de928e4d3",
+    "real_mesh_fit_checks.json": "a6d76028e58a0521452155dc1cbbca1cf2223371224705dd1dd828640a93132d",
+    "cube_rule_comparison.json": "aeaa8dd063341e8173fad139119417697a759fef2c3145945219bf67ba5fee17",
+    "calibration_comparison.json": "999834d1c1f4208528f9a71ecb0d74fb1d2c18000c1e5091655dce413301f8b2",
+    "cube_reference_target70_yaw000.png": "ed28d06d5ceef00bb46d18445c6856b4fef23febeb0f40c617aaf773623fa3d9",
+    "README.md": "c7a33976f51b49f25376ebceeb0a9bdc86524b4ce53905d5d511b7413f09ae60",
+    "cube_turn_max_target70_yaw000.png": "fdc07aa143fd5150792c90f59eb229a09f8bfbc964bb4ed625628f3c2faea867",
+    "UPSTREAM_README_v1.md": "373fafe0a8bc549ef26690fcbc32fbea8e4a1bcead394ffb418cfb50e97e2561",
+    "cube_reference_target70_yaw090.png": "f502f8a76bab19cd0bab69ab7f6552ff63ab35b32758ed38da49ea9950c58e0f",
+    "cube_reference_target70_yaw045.png": "f6d82b7e21d64e3aa808d7a632412228201f227aebf220f27c1f73e013414671"
+  },
+  "image_sha256": {
+    "cube_reference_vs_turn_max_a380_70.png": "aaa8db087cb2afd46190685e198916deaf3143989c25f4872b3aa23865785b40",
+    "sphere_vs_cube_50_70_90_a380.png": "3e62df92cb573d1238ad4e921c57d6afc71ec2f60611b075472bee7f8b5df192"
+  },
+  "cube_policy_status": "Owner prefers turn_max; requested same-object comparison precedes finalization and subsequent production stages",
+  "validation_scope": "Blender4.1.1 diagnostic calibration and still images; not production Blender4.2/OptiX video acceptance"
+}

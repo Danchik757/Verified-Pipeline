@@ -13,7 +13,7 @@ resolved scene + eligible mesh
   -> block selector -> frozen next-block reference
 ```
 
-Every arrow needs a versioned schema, identity check, and failure behavior. The current repository implements only the stage identity contract. No adapter is implemented yet.
+Every arrow needs a versioned schema, identity check, and failure behavior. This review branch includes the stage identity contract and a staged diagnostic envelope-calibration component. The full renderer and downstream adapters are not implemented. See `docs/ENVELOPE_CALIBRATION.md` for its acceptance limits.
 
 One `Observation` contract will identify source kind, frame/time, coordinates, preprocessing, domain and source hashes. The two providers must stay distinguishable in results; a SalFoM prediction must never be mislabeled as human gaze. The Toloka provider will be implemented after the rendering and evaluation route is validated.
 
