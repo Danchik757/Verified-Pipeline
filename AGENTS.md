@@ -12,3 +12,7 @@ Read `README.md`, `docs/ARCHITECTURE.md`, `docs/VALIDATION.md`, and `intake/CAND
 - Reject missing, nonfinite, mismatched or partial results. Resume only after checking content identities; do not overwrite accepted outputs.
 - Keep large data, weights, videos, maps, credentials and participant records out of Git. Review licenses before adding upstream source or weights to this public repository.
 - Promotion from diagnostic to pilot or release needs recorded evidence for the exact code and environment. Never call an executor self-check independent review.
+
+## Commit authorship and checkpoints
+
+For agent-assisted changes in project repositories, use the owner's verified Git identity; never add AI agents as authors, committers, contributors or co-author trailers. Preserve genuine upstream attribution. Make frequent scoped recovery commits, including clearly labeled WIP when useful; do not erase checkpoints by automatic squashing or history rewriting. Follow the branch lifecycle's owner-identity and recovery-commit section.
