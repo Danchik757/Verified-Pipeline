@@ -3,6 +3,7 @@
 Read `README.md`, `docs/ARCHITECTURE.md`, `docs/VALIDATION.md`, and `intake/CANDIDATES.md` before changing scientific code. When working inside the SALIENCY workspace, also follow its root `AGENTS.md` and `@GPT-job` task/chat rules.
 
 - Preserve source data, historical results and other workers' changes. Use scoped branches and one owner per editing scope.
+- Follow [the branch lifecycle](docs/BRANCH_LIFECYCLE.md): reuse task branches, use commits/tags for recoverable versions and close finished branches after verified authorized integration; branches are not backups.
 - Record source commit/hash and evidence before reusing an older script. Do not mark a wrapper or copied file validated solely because tests import it.
 - Preserve method rationale, exact measured target, input/code/output identities, numerical and visual comparisons, repeat commands and limits under `docs/` and `docs/evidence/`. Record owner choices separately from pending preferences; link superseded evidence rather than silently replacing it.
 - Keep accepted runtime code self-contained in this repository. Existing Tools/core scripts may be inspected as candidates, but must not become implicit runtime dependencies. Add each scientific component only after its contract and bounded real-input behavior are verified.
