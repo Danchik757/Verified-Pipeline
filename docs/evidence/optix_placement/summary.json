@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-07",
+  "code_commit": "120e19f50e8affe90620f4075176cfe89f483d35",
+  "blender_version": "4.2.15 LTS",
+  "blender_build_hash": "e8cd310002f4",
+  "device_type": "OPTIX",
+  "render_device": "GPU",
+  "devices": [
+    {
+      "name": "NVIDIA GeForce RTX 3090",
+      "id": "CUDA_NVIDIA GeForce RTX 3090_0000:5e:00",
+      "type": "CUDA",
+      "use": false
+    },
+    {
+      "name": "Intel Xeon Gold 6226R CPU @ 2.90GHz",
+      "id": "CPU",
+      "type": "CPU",
+      "use": false
+    },
+    {
+      "name": "NVIDIA GeForce RTX 3090",
+      "id": "CUDA_NVIDIA GeForce RTX 3090_0000:5e:00_OptiX",
+      "type": "OPTIX",
+      "use": true
+    }
+  ],
+  "camera": {
+    "distance_m": 1.5800000467330588,
+    "lens_mm": 31.17691421508789,
+    "horizontal_fov_deg": 60.000001669652114,
+    "resolution_px": [
+      640,
+      360
+    ],
+    "elevation_deg": 18
+  },
+  "cases": 6,
+  "rendered_frames": 72,
+  "meshes": [
+    "A380",
+    "spanner",
+    "bunny"
+  ],
+  "rendered_target_percent": 70,
+  "frame_angles_deg": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330
+  ],
+  "fps": 6,
+  "calibration_regression_cases": 12,
+  "max_calibration_size_delta_m": 0.0,
+  "max_world_vertex_error_m": 8.952069559253761e-08,
+  "max_raster_mesh_height_delta_px": 2.678704220564015,
+  "lossless_video_decode_exact": true,
+  "video_results": [
+    {
+      "mesh": "A380",
+      "kind": "sphere",
+      "frames": 12,
+      "lossless_decoded_pixels_exact": true,
+      "decoded_frame_hashes": [
+        "57030201d45bd3ec412c25bfdd2ee783",
+        "b32c5b17863e095d917f23a0b143d307",
+        "13d0b7f282a736ffa7d60913d5a49cd4",
+        "2834ae35331cb89c68ac6fe613d4f504",
+        "523ce4a83606935493fcf4843a16ac1a",
+        "0962294c1b1015195af6b14e27e3eac3",
+        "8b47f53ebd6f9f0933ba89858eb51bdf",
+        "fa8938b186bc7ff8bea7a1c5fb093fd6",
+        "42d1b8af1cf167d30f944ccee44566c3",
+        "68c28360c5d69d70574998c2b1926e00",
+        "f93c16d384b628b60d906ee6cffdb912",
+        "4c7193ab445bdd0c87025ca99d673d29"
+      ],
+      "lossless_sha256": "e19c5a896122b64fdea062e21fa322f14c991fe9b18e5aa349ac2715f03aaf8a",
+      "preview_sha256": "f6772942bb585b4a9fc79cece9e2b38a4923711cee87fd9f9df8d7d413bd471f"
+    },
+    {
+      "mesh": "A380",
+      "kind": "cube",
+      "frames": 12,
+      "lossless_decoded_pixels_exact": true,
+      "decoded_frame_hashes": [
+        "cfb2d099114ee1abd7f3fcfaa77265e8",
+        "5db79210c1d3dc3de0e71f04bc9d4e19",
+        "8f89f4becd24c52d098d8b78fe515857",
+        "98034ea7d50a495f65bdbb1ef445cb36",
+        "fb380c220c987399241e6c10828af667",
+        "c8c4cb95ba8a57e6e631d00b203609e5",
+        "43dabd53c267e13b3f1bd0d27e0089b9",
+        "5d797ecb8cf03eff0ba6978085661d0b",
+        "b744b478aa5c9ac6983ed8755e6909c7",
+        "3965660d3f08d7f9536d47da04d9ced8",
+        "dd9c2bfaac9e5224f8a67e3d48c13b8c",
+        "d05fd4818415f0ad89b16cf2bd080b98"
+      ],
+      "lossless_sha256": "f1cb35c947f225aafeb937817683ac70652e84b4ee9756abd865ff64d3a321d2",
+      "preview_sha256": "ba16b939a4bd659f069d0ef30a2edb2b69cf1d2cfabf481b179a9600918791fb"
+    },
+    {
+      "mesh": "spanner",
+      "kind": "sphere",
+      "frames": 12,
+      "lossless_decoded_pixels_exact": true,
+      "decoded_frame_hashes": [
+        "07623d075c5227912d06439a6fe43f28",
+        "202ef65f09d8401c1bd3865bd76db5e9",
+        "435b473a92110f0b7dcb94e1f12f444a",
+        "e2cdef9222df9ce8b50e1f3171f6c069",
+        "a114fb8dfc9540ce75cc80ef5004158e",
+        "ad40a98c2e5025c76348f88719bd9bd0",
+        "d3df9204b4a869291de2977154bc2ae3",
+        "92299050c6123f8d02ebcdedc8ad8bd4",
+        "5966220008e0f65cbb4393e92b05e9cc",
+        "3a227b53747d6dd7c22fb28161a40276",
+        "c446b32068bd404b02c110b047c234f9",
+        "6b2ab5ed9631183ab7b6c536bf083b54"
+      ],
+      "lossless_sha256": "e1539a941398e6886a5577c1e63f2d3a30b9fbdebbf0e513d76be4dec5f67c7e",
+      "preview_sha256": "9b071184e7e62aea00cba880f0b5abc1c0f5dbaa9b8f31a76f18eb7a106bc809"
+    },
+    {
+      "mesh": "spanner",
+      "kind": "cube",
+      "frames": 12,
+      "lossless_decoded_pixels_exact": true,
+      "decoded_frame_hashes": [
+        "d5014fae47c5a7ca300d04c8c7f402cf",
+        "93f1ecf82d9c759f444e3e65d942a209",
+        "479b187d04e78b2a28816aa38c598603",
+        "fd6752f52bd9f351580300af7fd03247",
+        "967f4bea809edf4cdb677fc8f3799ca7",
+        "cf2e3bce64b2f51be8c2496954fc5aac",
+        "2a12bd3b2d16a64f71780deacd3a3860",
+        "8b6047fe6bc5cbdb53087465be50b8e9",
+        "cddd19afb2df4d62c49921622efcab28",
+        "a691f0e0d6db3b70cf9829c0da9097f1",
+        "ff4de394078f01041261f4f3ff61db9c",
+        "274ab382ac7729a1890dda01cac42d5a"
+      ],
+      "lossless_sha256": "37ce0c03791d18ffde69b791387fd0cf764858ff0039b423d0d35abd4c1e73ca",
+      "preview_sha256": "77c94833ce84b66596b0aef3c7973014307d84ff593ce55ec95929fe2fac7cec"
+    },
+    {
+      "mesh": "bunny",
+      "kind": "sphere",
+      "frames": 12,
+      "lossless_decoded_pixels_exact": true,
+      "decoded_frame_hashes": [
+        "aca514d79b24d367cb74a688eb95744a",
+        "e0c1252c6d2964f18af275e9874e7750",
+        "e9592badc91cf115a04dadf604ad2389",
+        "156f9e963e77ab4ca6bc33dfa5e0aa41",
+        "7cbc7547f531808cd526c0bf4f4266ef",
+        "5411531572eb6f0becd9975c83e6870f",
+        "c30adfeaa88731bf9fb6f5e800770d41",
+        "335a840a1522db01f51e26308558c91d",
+        "1a3f6b3e59a95881a67ca6ce3681660a",
+        "30d7024995d0b6fa5785072bc064f15f",
+        "ea99502212d4292b657a2c06945c42b7",
+        "c333e1668a89055532e374e9c3887d16"
+      ],
+      "lossless_sha256": "8a0176b1b5a4b28542bf37c93350fbdcbae720c737f861ab77f1a6beeadc5fe2",
+      "preview_sha256": "1e04200483368909e69098f0b2e841a382ecc578fcac873ab1734800a47237b0"
+    },
+    {
+      "mesh": "bunny",
+      "kind": "cube",
+      "frames": 12,
+      "lossless_decoded_pixels_exact": true,
+      "decoded_frame_hashes": [
+        "a805d8be9e70c0ae79dba804d809e266",
+        "ce12b7b3e679458c2572ed51e15ba4bb",
+        "92b4e621006c7d6cf2e1ceeeec84c1f3",
+        "8cd232fc9f809b60dd10e91650bd60ed",
+        "39b2acf977003b45afdc1c4751f2533e",
+        "4c42ac18aa5de057bd99313bfce4d4b6",
+        "b45b59e7885e5d1912c6f8b8a0070a73",
+        "a886cfa444cb655dc1bd9d6b4ab40b3e",
+        "1d38a90eaa4dd37c49ce201e0640337a",
+        "4e532b66d645cf7138968d7504f00fc1",
+        "4ef180ab994f20bbec969f6a943f8454",
+        "99fcd9f712a791ed5ee283e596fdf38e"
+      ],
+      "lossless_sha256": "1a3bfa0b328e2a85951eb409f2aea574dd4e5aeb4ec1f4b629050a586526b197",
+      "preview_sha256": "f5ccc35aef8cbd31f54729aff13503aa8a7b19617809fbffb8f3ec9aba82c59a"
+    }
+  ],
+  "static_scale_verified_all_cases": true,
+  "frame_angle_sequence_verified": true,
+  "remote_host_alias": "vg-iai",
+  "remote_gpu_index": 1,
+  "status": "bounded placement-to-Blender4.2/OptiX integration passed; not full ablation pipeline acceptance",
+  "nvidia_driver": "580.159.03",
+  "system_python": "3.12.3",
+  "input_sha256": {
+    "A380": "046397d6ada42f8438d776ca43bc92c21782681ec406f52d8c329164aaa6fd36",
+    "spanner": "ae5bf9f4c85733039786b04d17f7da131f36f13d983d1e1dd4206106d4503e4e",
+    "bunny": "0a0c6c58ba54ccb937b2be4e193a1d29e28c0d6bc6abb1206ef547d1dd4c185c"
+  },
+  "validation_script_sha256": {
+    "check_placement_optix.py": "c50910cbc26c593f7020743529a053e3c4e523459b4f4584beea689cade1568d",
+    "verify_videos.py": "0ea3e34f05da86f7b3b938d6c9bd46a3768814c434087be8263a605561a3a6b4"
+  }
+}

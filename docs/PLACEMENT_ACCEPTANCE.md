@@ -1,5 +1,7 @@
 # Accepted placement calculation — 2026-11-07
 
+Current integration status: [the bounded Blender4.2/OptiX scene/video check](OPTIX_PLACEMENT_INTEGRATION.md) passed on 2026-11-07. Earlier text below records the scope at the original geometry acceptance.
+
 The owner accepts independent sphere/cube calibration using the maximum full projected envelope height over the turn (`turn_max`). One mesh scale is held fixed across frames. The accepted code revision is `5d675f418f6e8b866071ddd92504dc7115f3efe3`; calibration core version is 1.0.0. Exact source hashes are pinned in [ACCEPTED_PLACEMENT.json](ACCEPTED_PLACEMENT.json). Use the descriptive sphere/cube scripts with explicit `--mode turn_max --yaw-step 1`.
 
 The currently checked turn sampling is yaw 0–359 degrees at 1-degree steps; this is a sampled maximum. Final frame-angle scheduling must use its actual angle list or explicitly revalidate sampling. Sphere yaw invariance holds for the fixed centered camera.

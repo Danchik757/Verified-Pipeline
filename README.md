@@ -4,7 +4,7 @@ Public source for a reproducible mesh-stimulus experiment pipeline. The first ta
 
 ## Current status
 
-The owner accepted the placement calculation with `turn_max`; see [the pinned acceptance record](docs/PLACEMENT_ACCEPTANCE.md). Target Blender4.2/OptiX integration remains separate.
+The owner accepted the placement calculation with `turn_max`; see [the pinned acceptance record](docs/PLACEMENT_ACCEPTANCE.md). A [bounded Blender4.2/OptiX scene/video integration check](docs/OPTIX_PLACEMENT_INTEGRATION.md) has now passed for three real meshes. The full ablation pipeline is still being built.
 
 The main branch contains the accepted [independent sphere/cube projection
 calibration](docs/ENVELOPE_CALIBRATION.md). The descriptive entry
