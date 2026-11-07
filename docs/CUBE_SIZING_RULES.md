@@ -1,5 +1,7 @@
 # Cube size: reference view versus turn maximum
 
+Current status: owner accepted `turn_max` placement calculation on 2026-11-07. See [the acceptance record](PLACEMENT_ACCEPTANCE.md); prior preference/review wording below describes the historical comparison. Blender4.2/OptiX integration remains separate.
+
 Owner request, 2026-11-07: prefer maximum-over-turn sizing, but inspect the
 same object under both rules before finalizing the policy and progressing to
 the next implementation stages. Both modes remain explicit in the commands.

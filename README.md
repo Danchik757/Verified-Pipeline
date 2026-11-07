@@ -4,6 +4,8 @@ Public source for a reproducible mesh-stimulus experiment pipeline. The first ta
 
 ## Current status
 
+The owner accepted the placement calculation with `turn_max`; see [the pinned acceptance record](docs/PLACEMENT_ACCEPTANCE.md). Target Blender4.2/OptiX integration remains separate.
+
 This feature branch prepares the checked [independent sphere/cube projection
 calibration](docs/ENVELOPE_CALIBRATION.md) for review. The descriptive entry
 scripts are `scripts/calibrate_sphere_projection_height.py` and

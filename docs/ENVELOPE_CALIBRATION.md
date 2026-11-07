@@ -1,5 +1,7 @@
 # Independent sphere and cube projection height
 
+Current status: owner accepted `turn_max` placement calculation on 2026-11-07. See [the acceptance record](PLACEMENT_ACCEPTANCE.md); prior preference/review wording below describes the historical comparison. Blender4.2/OptiX integration remains separate.
+
 This review branch preserves the checked calibration component and the
 explanations needed to recover its behavior. It is not a production renderer
 release. Cube turn-maximum sizing is the owner's preferred rule; the visual
