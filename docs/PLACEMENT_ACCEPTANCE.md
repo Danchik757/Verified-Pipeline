@@ -7,3 +7,5 @@ The currently checked turn sampling is yaw 0–359 degrees at 1-degree steps; th
 Acceptance checked current source/evidence hashes, all six comparison-frame hashes, and all 12 saved exact calibration comparisons. No additional render was needed for this policy-only acceptance.
 
 Placement calculation is accepted. Production Blender4.2/OptiX renderer connection remains a separate stage. Main merge, parent pointer updates and target-engine execution are not implied by this record. The next scientific discussion can proceed to lamp geometry (Q06).
+
+Git integration completed on 2026-11-07: PR2 fast-forwarded into main, all intermediate commits preserved. Annotated tag `placement-geometry-v1.0.0` pins the accepted implementation; rejected common-scale history is retained under `archive/common-sphere-diagnostic-2026-11-07`. Both finished feature branches were removed after remote tags were verified.

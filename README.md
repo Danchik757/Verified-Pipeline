@@ -6,13 +6,12 @@ Public source for a reproducible mesh-stimulus experiment pipeline. The first ta
 
 The owner accepted the placement calculation with `turn_max`; see [the pinned acceptance record](docs/PLACEMENT_ACCEPTANCE.md). Target Blender4.2/OptiX integration remains separate.
 
-This feature branch prepares the checked [independent sphere/cube projection
-calibration](docs/ENVELOPE_CALIBRATION.md) for review. The descriptive entry
+The main branch contains the accepted [independent sphere/cube projection
+calibration](docs/ENVELOPE_CALIBRATION.md). The descriptive entry
 scripts are `scripts/calibrate_sphere_projection_height.py` and
 `scripts/calibrate_cube_projection_height.py`. All required geometry source,
 explanations, evidence and reproduction examples are included in this checkout.
-The [cube rule comparison](docs/CUBE_SIZING_RULES.md) precedes final policy
-acceptance and target-engine integration.
+The [cube rule comparison](docs/CUBE_SIZING_RULES.md) records the accepted turn-max policy. Target-engine integration is tracked separately.
 
 This repository is an **implementation scaffold**. Its stage-identity code is tested locally. It cannot yet render a video, run a trained SalFoM model, project predictions, score ground truth, or collect mouse data. No scientific component is called verified merely because its source is listed here. See [validation levels](docs/VALIDATION.md) and the [candidate intake ledger](intake/CANDIDATES.md).
 

@@ -2,11 +2,9 @@
 
 Current status: owner accepted `turn_max` placement calculation on 2026-11-07. See [the acceptance record](PLACEMENT_ACCEPTANCE.md); prior preference/review wording below describes the historical comparison. Blender4.2/OptiX integration remains separate.
 
-This review branch preserves the checked calibration component and the
+The main branch preserves the checked calibration component and the
 explanations needed to recover its behavior. It is not a production renderer
-release. Cube turn-maximum sizing is the owner's preferred rule; the visual
-comparison is supplied before finalizing that choice or proceeding to target
-Blender 4.2/OptiX integration.
+release. Cube turn-maximum sizing is accepted by the owner; the visual comparison is preserved as its rationale. Blender 4.2/OptiX integration is checked separately.
 
 ## Files and descriptive names
 
